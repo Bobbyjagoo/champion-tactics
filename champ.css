@@ -1,0 +1,157 @@
+
+body{
+    margin: 0;
+    background-image: url("10th.jpg") ;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+
+
+#myVideo{
+    max-width: 120%;
+    padding: 15px;
+}
+
+header {
+    background-color: #101712;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 10%;
+    opacity: 80%;
+    border: 4px solid darkgoldenrod
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 50px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'DH', sans-serif;
+    font-size: 70px;
+}
+
+p{
+    font-family: 'Kp', sans-serif;
+    font-size: 200%;
+    margin: 50px;
+    
+}
+
+.content p{
+  background-color: #101712;  
+  margin-left: 120px;
+  margin-right: 120px ;
+  padding: 50px;
+  color: darkgoldenrod;
+  border: 4px solid darkgoldenrod;
+  padding-top: 50px;
+
+}
+
+.content h1{
+    color: darkgoldenrod;
+}
+
+body video{
+    
+    opacity: 85%;
+}
+
+.chron img{
+    height: 20%;
+    max-width: 20%;
+    padding: 60px;
+    background-color:#101712 ;
+    margin-bottom: 20px;
+    border: 4px solid darkgoldenrod;
+    z-index: 1;
+}
+
+.content p video{
+    padding-top: 50px;
+    max-width: 40%;
+    padding: 20px;
+    height: 10%;
+}
+
+.next{
+    float: right;
+   margin-right: 100px;
+   list-style-type: none;
+   transition: transform 0.5s ease-in-out;
+}
+
+.next1{
+    float: left;
+    margin-left: 100px;
+    list-style-type: none;
+}
+
+.next2{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.one{
+    max-width: 200%;
+}
+
+.chron2 {
+    background-color: #101712 ;
+    padding: 20px;
+    text-size-adjust: 200%;
+    max-width: 25%;
+    float: left;
+    padding-top: 20PX;
+    size: 400%;
+    text-align: center;
+    margin-bottom: 30px;
+    word-spacing: 4px;
+    border: 4px solid darkgoldenrod;
+    border-radius: 4px;
+    background-size: cover;
+    opacity: 80%;
+    font-size: 130%;
+    margin-left: 50px;
+ 
+   
+}
+
+.chron2 img{
+    padding-top: 10px;
+    width: 60%;
+    height: auto;
+}
+
+article a {
+    text-decoration: none;
+    animation: heartbeat 1s infinite;
+    color: #101712;
+    border: 4px solid darkgoldenrod;
+     margin-top: 40px;
+     background-color: darkgoldenrod;
+}

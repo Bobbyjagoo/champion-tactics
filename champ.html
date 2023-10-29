@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="KnightWarrior.otf">
+    <link rel="stylesheet" href="champ.css">
+</head>
+
+<style>
+    @font-face {
+        font-family: Kp;
+        src: url('Kogapunk.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: Kr;
+        src: url('Kroegbainder.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: DH;
+        src: url('DragonHunter.otf') format('opentype');
+    }
+</style>
+
+<header>
+    <img src="1st.png" alt="">
+    <nav>
+        <ul>
+            <li><a href="#1st"><img src="2nd.png" alt=""> </a></li>
+            <li><a href="champ1.html"><img src="4th.png" alt=""></a></li>
+            <li><a href="champ2.html"><img src="3rd.png" alt=""></a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <video autoplay loop id="myVideo">
+        <source src="2nd.mp4" type="video/mp4">
+  
+
+    <script>
+        let options = {
+          root:null,
+          rootMargin: '0px',
+          threshold:0.50
+        };
+        let callback = (entries, observer)=>{
+            entries.forEach(entry => {
+                if(entry.target.id == 'myVideo')
+                {
+                    if(entry.isIntersecting){
+                        entry.target.play();
+                    }
+                    else{
+                        entry.target.pause();
+                    }
+                }
+            });
+        }
+      let observer = new IntersectionObserver(callback,options); 
+      observer.observe(document.querySelector('#myVideo'))
+    </script>
+</video>
+</body>
+
+
+
+
+<div class="content" id="1st">
+    <h1>ABOUT THE GAME</h1>
+<p>
+
+Champions Tactics<sup>tm</sup> Grimoria Chronicles is a brand new PVP 
+Tactical RPG experimental game on PC currently in development
+at Ubisoft. Assemble a team of mythical Champions,engage in thrilling
+tactical battles against other players and discover the legends of the
+dark and mythical world of Grimoria. Are you ready to write your name
+in the Chronicles?<br>
+ Grimoria is no ordinary world;its a realm of mystique,magic, and
+ untold legends.As a player, you will have the priviledge to explore the
+ enchanting landscapes,unravel the hidden secrets, and dive deep
+ into the captivating lore. <br>
+Its a game into the futureof gaming.It weaves storytelling, strategy,
+blockchain technology, and community-driven engagement into a 
+tapestry of pure excitment <br>
+ <img src="5th.png" alt="">
+</p>
+
+
+<li class="next"><a href="champ1.html"><img src="4th.png" alt=""></a></li>
+<li class="next2"><a href="champ3.html"><img src="12th.png" alt=""> </a></li>
+</div>
+
+
+
+</html>
